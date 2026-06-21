@@ -19,8 +19,6 @@ This modular approach improves maintainability, scalability, and future expansio
 # 2. High-Level Architecture
 
 ```
-
-```
                 +----------------------+
                 |     User Interface   |
                 |    Flutter Mobile    |
@@ -55,8 +53,6 @@ This modular approach improves maintainability, scalability, and future expansio
 ---
 
 # 3. Layered Architecture
-
-```
 
 ```
 Application Layer
@@ -151,8 +147,6 @@ Measures:
 # 5. Firmware Architecture
 
 ```
-
-```
 main()
 
 │
@@ -227,8 +221,6 @@ Display status using RGB LED.
 # 6. Bluetooth Architecture
 
 BLE is used exclusively between the badge and the mobile application.
-
-```
 
 ```
 ESP32 Badge
@@ -312,8 +304,6 @@ Allows:
 Flutter Application
 
 ```
-
-```
 Presentation Layer
 
 ↓
@@ -337,7 +327,6 @@ Suggested folder structure:
 
 ```
 
-```
 lib/
 
 ├── models/
@@ -360,8 +349,6 @@ lib/
 # 8. Cloud Architecture
 
 Firebase Services
-
-```
 
 ```
 Flutter
@@ -388,8 +375,6 @@ Cloud Functions (future)
 ## Firestore Collections
 
 ```
-
-```
 users/
 
 devices/
@@ -402,8 +387,6 @@ firmware/
 ```
 
 Each measurement contains:
-
-```
 
 ```
 timestamp
@@ -426,8 +409,6 @@ firmwareVersion
 # 9. Data Flow
 
 ## Live Mode
-
-```
 
 ```
 Sensor
@@ -454,8 +435,6 @@ Screen
 ## Cloud Sync
 
 ```
-
-```
 Sensor
 
 ↓
@@ -474,8 +453,6 @@ Firestore
 ---
 
 ## Offline Mode
-
-```
 
 ```
 Sensor
@@ -500,8 +477,6 @@ Firestore
 ---
 
 # 10. Power Architecture
-
-```
 
 ```
 USB-C
